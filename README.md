@@ -14,7 +14,7 @@ To simulate real-world security investigations and document the process of ident
 
 ### 🐧 Linux Log Analysis
 
-* [Linux Failed Login Investigation](./linux-failed-logins.md)
+* [Linux Brute Force Investigation](./linux-brute-force-investigation.md)
 
 ---
 
