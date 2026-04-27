@@ -1,4 +1,4 @@
-# Linux Failed Login Investigation
+# Linux Brute Force Investigation
 
 ## Objective
 
