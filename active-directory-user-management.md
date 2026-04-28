@@ -57,3 +57,7 @@ This lab highlights the importance of access control and privilege management in
 
 From a SOC perspective, monitoring account changes, privilege assignments, and authentication behaviour is critical for detecting potential misuse or compromise.
 
+## Evidence
+
+![Active Directory Lab Screenshot](your-image-path.png)
+
