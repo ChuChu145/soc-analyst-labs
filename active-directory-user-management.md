@@ -59,5 +59,5 @@ From a SOC perspective, monitoring account changes, privilege assignments, and a
 
 ## Evidence
 
-![Active Directory Lab Screenshot](your-image-path.png)
+![Active Directory Lab Screenshot](images/AD-task.jpg)
 
