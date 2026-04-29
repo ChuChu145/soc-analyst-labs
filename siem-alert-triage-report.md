@@ -71,6 +71,12 @@ Although the activity appears legitimate, high-volume data transfers can also in
 
 This alert was classified as a **false positive**, as the activity aligns with normal business operations.
 
+## Evidence
+
+![Potential Data Exfiltration Alert](images/SIEM 4.png)
+
+*SIEM alert showing high outbound data transfer exceeding threshold*
+
 ---
 
 ## Alert 2: Double Extension File Creation
@@ -107,6 +113,12 @@ The positive match from the TI platform confirms that the file is known to be ma
 ### Conclusion
 
 This alert was classified as a **true positive**, indicating a potential malware threat within the environment.
+
+## Evidence
+
+![Double Extension Alert](images/SIEM 3.png)
+
+*Alert showing suspicious file with double extension and associated hash*
 
 ---
 
@@ -145,6 +157,12 @@ While GitHub is a trusted platform, it can also host malicious content. However,
 ### Conclusion
 
 This alert was classified as a **false positive**, as the activity aligns with normal developer operations.
+
+## Evidence
+
+![GitHub Download Alert](images/SIEM1.png)
+
+*Alert showing file download from GitHub repository*
 
 ---
 
