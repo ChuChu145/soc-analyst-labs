@@ -15,6 +15,7 @@ To simulate real-world security investigations and document the process of ident
 ### 🐧 Linux Log Analysis
 
 * [Linux Brute Force Investigation](./linux-brute-force-investigation.md)
+* [Active Directory User Management](./active-directory-user-management.md)
 
 ---
 
