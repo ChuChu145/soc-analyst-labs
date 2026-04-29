@@ -73,7 +73,7 @@ This alert was classified as a **false positive**, as the activity aligns with n
 
 ## Evidence
 
-![Potential Data Exfiltration Alert](images/SIEM 4.png)
+![Potential Data Exfiltration Alert](images/SIEM4.png)
 
 *SIEM alert showing high outbound data transfer exceeding threshold*
 
@@ -116,7 +116,7 @@ This alert was classified as a **true positive**, indicating a potential malware
 
 ## Evidence
 
-![Double Extension Alert](images/SIEM 3.png)
+![Double Extension Alert](images/SIEM3.png)
 
 *Alert showing suspicious file with double extension and associated hash*
 
