@@ -24,7 +24,7 @@ To investigate an outbound connection attempt to a blocked URL, validate its mal
 - **Destination Port:** 80  
 - **URL:** http://bit.ly/3sHkX3da12340
 
-  ![SIEM Alert Details](../Alert-Trigger.png)
+  ![SIEM Alert Details](../images/Alert-Trigger.png)
 
 *SIEM view showing alert trigger, source, destination, and classification*
 
@@ -108,7 +108,7 @@ The threat was successfully mitigated by existing security controls, and no comp
 ## 🖼️ Evidence
 
 
-![Log Details](../IP-log.png)
+![Log Details](../images/IP-log.png)
 
 *Connection attempt details including source and destination*
 
