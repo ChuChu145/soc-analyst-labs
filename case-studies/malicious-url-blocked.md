@@ -4,7 +4,7 @@
 
 - **Alert Type:** Malicious URL / Web Traffic  
 - **Severity:** High  
-- **Time of Activity:** 18:02  
+- **Time of Activity:** 13:07
 - **Environment:** SIEM Lab (Elastic SIEM)  
 
 ---
