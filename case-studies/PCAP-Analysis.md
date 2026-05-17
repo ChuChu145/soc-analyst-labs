@@ -157,22 +157,6 @@ This exercise demonstrates practical SOC investigation workflows involving email
 
 ---
 
-# Example Wireshark Filters Used
-
-## SMTP Response Codes
-
-```plaintext
-smtp.response.code
-```
-
-## SMTP 220 Responses
-
-```plaintext
-smtp.response.code == 220
-```
-
----
-
 # MITRE ATT&CK Mapping
 
 | Technique | Description |
