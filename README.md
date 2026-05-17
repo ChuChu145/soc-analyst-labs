@@ -17,6 +17,10 @@ To simulate real-world security investigations and document the process of ident
 
 ---
 
+## 📂 Case-Studies Included
+
+* [PCAP Analysis](./)
+
 ## 🛠️ Skills Demonstrated
 
 * Log analysis
