@@ -1,4 +1,4 @@
-# Phishing Infrastructure Investigation & Credential Harvesting Analysis
+# Phishing Infrastructure Investigation 
 
 ## Overview
 
