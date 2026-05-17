@@ -84,7 +84,7 @@ The hash returned positive detections from multiple security vendors, confirming
 
 ### VirusTotal Hash Result Screenshot
 
-![VirusTotal Detection Screenshot](../images/final-report.png)
+![VirusTotal Detection Screenshot](../images/virus-total.png)
 
 ---
 
