@@ -61,7 +61,7 @@ The SMTP response message was analyzed to determine the reason for the block.
 
 ### Spamhaus Response Screenshot
 
-![Spamhaus Blocked Email](images/spamhaus-response.png)
+![Spamhaus Blocked Email](../images/wireshack2.png)
 
 ---
 
@@ -76,7 +76,7 @@ This helped confirm that the email was blocked due to spam or malicious activity
 
 ### SMTP Response Message Screenshot
 
-![SMTP Response Analysis](images/response-message-analysis.png)
+![SMTP Response Analysis](../images/wireshack3.png)
 
 ---
 
@@ -94,7 +94,7 @@ A specific packet (`Packet 270`) was analyzed to inspect the email structure and
 
 ### Packet 270 IMF Screenshot
 
-![Packet 270 IMF Analysis](images/imf-analysis.png)
+![Packet 270 IMF Analysis](../images/wireshack-analysis.png)
 
 ---
 
