@@ -71,10 +71,7 @@ kennaroads.buzz
 
 # 3. Brand Impersonation Analysis
 
-Further analysis revealed that the phishing campaign was impersonating:
-
-- :contentReference[oaicite:1]{index=1}
-
+Further analysis revealed that the phishing campaign was impersonating.
 The phishing site attempted to mimic Microsoft branding in order to increase user trust and improve credential theft success rates.
 
 ### Microsoft Impersonation Screenshot
