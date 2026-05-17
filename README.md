@@ -13,8 +13,6 @@ To simulate real-world security investigations and document the process of ident
 ## 📂 Labs Included
 
 ### 🐧 Linux Log Analysis
-
-* [Linux Brute Force Investigation](./linux-brute-force-investigation.md)
 * [Active Directory User Management](./active-directory-user-management.md)
 * [Siem Alert Triage](./siem-alert-triage-report.md)
 
