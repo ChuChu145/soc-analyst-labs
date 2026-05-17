@@ -94,7 +94,7 @@ This file appeared to contain phishing kit components associated with the creden
 
 ### Attacker Directory Screenshot
 
-![Attacker Directory Enumeration](../images/data.png)
+![Attacker Directory Enumeration](../images/Data.png)
 
 ---
 
@@ -145,7 +145,7 @@ During analysis, the email address used by the attacker to collect stolen creden
 
 ### submit.php Investigation Screenshot
 
-![submit.php Investigation](../images/harvest-email-address.png)
+![submit.php Investigation](../images/Harvest-email-address.png)
 
 ---
 
