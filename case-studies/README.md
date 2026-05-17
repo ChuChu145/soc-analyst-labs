@@ -37,15 +37,12 @@ The goal of these case studies is to simulate real-world SOC analyst workflows b
 
 ## 📁 Case Studies Included
 
-### 1. Malicious URL Connection Attempt (Blocked) 
+### 1. Malicious URL Connection Attempt (Blocked) (./malicious-url-blocked.md)
 
 
 ---
 
-### 2. Phishing Email with Malicious Link
-- Analyses a phishing email using domain validation and URL investigation  
-- Demonstrates correlation between email and network logs  
-- Classification: **True Positive – No User Interaction**
+### 2. Phishing Email Investigation (./Phishing-Email-Investigation)
 
 ---
 
