@@ -19,7 +19,10 @@ To simulate real-world security investigations and document the process of ident
 
 ## 📂 Case-Studies Included
 
-* [PCAP Analysis](./)
+* [PCAP Analysis](./case-studies/PCAP-Analysis.md)
+* [Phishing Email Investigation](./case-studies/Phishing-Email-Investigation.md)
+* [Phishing Infrastructure Investigation](./case-studies/Phishing-Infrastructure-Investigation.md)
+* [Malicious URL Investigation](./case-studies/malicious-url-blocked.md)
 
 ## 🛠️ Skills Demonstrated
 
