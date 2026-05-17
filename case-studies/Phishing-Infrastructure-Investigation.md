@@ -45,7 +45,7 @@ The investigation began by reviewing the suspicious email and identifying the se
 
 ### Email Investigation Screenshot
 
-![Phishing Email Investigation](images/email-investigation.png)
+![Phishing Email Investigation](../images/email-source.png)
 
 ---
 
@@ -65,7 +65,7 @@ kennaroads.buzz
 
 ### CyberChef Decoding Screenshot
 
-![CyberChef Decoding](images/cyberchef-decode.png)
+![CyberChef Decoding](../images/cyberchef.png)
 
 ---
 
@@ -76,7 +76,7 @@ The phishing site attempted to mimic Microsoft branding in order to increase use
 
 ### Microsoft Impersonation Screenshot
 
-![Microsoft Impersonation](images/microsoft-impersonation.png)
+![Microsoft Impersonation](../images/microsoft.png)
 
 ---
 
@@ -94,7 +94,7 @@ This file appeared to contain phishing kit components associated with the creden
 
 ### Attacker Directory Screenshot
 
-![Attacker Directory Enumeration](images/directory-enumeration.png)
+![Attacker Directory Enumeration](../images/data.png)
 
 ---
 
@@ -110,7 +110,7 @@ sha256sum update365.zip
 
 ### Linux Hashing Screenshot
 
-![Linux SHA256 Hash](images/linux-sha256.png)
+![Linux SHA256 Hash](../images/p2-sha256sum.png)
 
 ---
 
@@ -122,7 +122,7 @@ The hash returned positive malicious detections from multiple security vendors, 
 
 ### VirusTotal Detection Screenshot
 
-![VirusTotal Detection](images/virustotal-detection.png)
+![VirusTotal Detection](../images/virus-total.png)
 
 ---
 
@@ -145,7 +145,7 @@ During analysis, the email address used by the attacker to collect stolen creden
 
 ### submit.php Investigation Screenshot
 
-![submit.php Investigation](images/submit-php-analysis.png)
+![submit.php Investigation](../images/harvest-email-address.png)
 
 ---
 
