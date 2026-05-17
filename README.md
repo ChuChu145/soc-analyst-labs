@@ -12,8 +12,8 @@ To simulate real-world security investigations and document the process of ident
 
 ## 📂 Labs Included
 
-* [Active Directory User Management](../Labs/active-directory-user-management.md)
-* [Siem Alert Triage](../Labs/siem-alert-triage-report.md)
+* [Active Directory User Management](./Labs/active-directory-user-management.md)
+* [Siem Alert Triage](./Labs/siem-alert-triage-report.md)
 
 ---
 
