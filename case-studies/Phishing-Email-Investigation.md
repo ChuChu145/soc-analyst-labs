@@ -39,7 +39,7 @@ The email content was reviewed for common phishing indicators.
 
 ### Email Screenshot
 
-![Suspicious Email Screenshot](images/email-screenshot.png)
+![Suspicious Email Screenshot](../images/email-sample.png)
 
 ---
 
