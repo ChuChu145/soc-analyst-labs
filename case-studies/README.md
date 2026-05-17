@@ -37,10 +37,8 @@ The goal of these case studies is to simulate real-world SOC analyst workflows b
 
 ## 📁 Case Studies Included
 
-### 1. Malicious URL Connection Attempt (Blocked)
-- Investigates an outbound connection to a known malicious URL  
-- Demonstrates firewall log analysis and validation of blocked activity  
-- Classification: **True Positive – Blocked**
+### 1. Malicious URL Connection Attempt (Blocked) 
+
 
 ---
 
