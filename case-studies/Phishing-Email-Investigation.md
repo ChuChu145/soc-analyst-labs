@@ -56,7 +56,7 @@ The results showed that the originating domain had a suspicious reputation and w
 
 ### Message Source Screenshot
 
-![Message Source Screenshot](images/message-source.png)
+![Message Source Screenshot](../images/message-source.png)
 
 ---
 
@@ -72,7 +72,7 @@ sha256sum suspicious_attachment.zip
 
 ### Linux Hashing Screenshot
 
-![Linux SHA256 Screenshot](images/linux-hash.png)
+![Linux SHA256 Screenshot](../images/linux-terminal.png)
 
 ---
 
@@ -84,7 +84,7 @@ The hash returned positive detections from multiple security vendors, confirming
 
 ### VirusTotal Hash Result Screenshot
 
-![VirusTotal Detection Screenshot](images/virustotal-result.png)
+![VirusTotal Detection Screenshot](../images/final-report.png)
 
 ---
 
