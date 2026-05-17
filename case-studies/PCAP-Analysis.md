@@ -171,12 +171,6 @@ smtp.response.code
 smtp.response.code == 220
 ```
 
-## IMF Analysis
-
-```plaintext
-imf
-```
-
 ---
 
 # MITRE ATT&CK Mapping
