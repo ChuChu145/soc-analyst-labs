@@ -229,11 +229,11 @@ The investigation successfully identified:
 
 # Tools Used
 
-- :contentReference[oaicite:3]{index=3}
-- :contentReference[oaicite:4]{index=4}
+- Message Source
+- Cyberchef
 - Linux Terminal
 - sha256sum
-- Browser Developer Investigation
+- VirusTotal
 - PHP Source Analysis
 
 ---
