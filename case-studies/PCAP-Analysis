@@ -1,0 +1,204 @@
+# SMTP PCAP Analysis Case Study
+
+## Overview
+
+This project documents an SMTP traffic investigation performed using Wireshark during a SOC Analyst lab exercise. The objective was to analyze SMTP traffic within a PCAP file, identify suspicious email activity, investigate blocked messages, and extract information about a malicious attachment using IMF analysis.
+
+The investigation included:
+- SMTP traffic filtering
+- SMTP response code analysis
+- Spamhaus block investigation
+- IMF (Internet Message Format) analysis
+- Attachment identification
+
+---
+
+## Scenario
+
+A PCAP file containing SMTP traffic was provided for analysis. The goal was to investigate potentially malicious email activity and determine why certain emails were blocked by external mail security systems.
+
+The investigation focused on:
+- SMTP response codes
+- Blocked email responses
+- Spamhaus-related filtering
+- IMF packet analysis
+- Attachment identification
+
+---
+
+# Investigation Process
+
+## 1. SMTP Traffic Filtering
+
+SMTP traffic was isolated in Wireshark using SMTP display filters.
+
+SMTP response codes were analyzed to identify suspicious or blocked email transactions.
+
+### Example Filter Used
+
+```plaintext
+smtp.response.code
+```
+
+Additional filtering was performed to narrow results to specific SMTP response codes associated with blocked emails.
+
+### SMTP Response Code Screenshot
+
+![SMTP Response Code Filter](images/smtp-response-filter.png)
+
+---
+
+## 2. Identifying Blocked Emails
+
+Further investigation identified an email blocked by `spamhaus.org`.
+
+The SMTP response message was analyzed to determine the reason for the block.
+
+### Investigation Findings
+- Email was rejected by Spamhaus filtering
+- SMTP response indicated the sender/domain had a poor reputation
+- Blocking behavior was consistent with anti-spam protection mechanisms
+
+### Spamhaus Response Screenshot
+
+![Spamhaus Blocked Email](images/spamhaus-response.png)
+
+---
+
+## 3. SMTP Response Message Analysis
+
+The SMTP response message was reviewed in detail to understand:
+- The rejection reason
+- SMTP status code
+- Mail server response behavior
+
+This helped confirm that the email was blocked due to spam or malicious activity indicators.
+
+### SMTP Response Message Screenshot
+
+![SMTP Response Analysis](images/response-message-analysis.png)
+
+---
+
+## 4. IMF (Internet Message Format) Analysis
+
+The investigation then shifted to IMF analysis for deeper inspection of the email contents.
+
+A specific packet (`Packet 270`) was analyzed to inspect the email structure and metadata.
+
+### IMF Analysis Steps
+- Located Packet 270
+- Expanded IMF protocol details
+- Inspected MIME and attachment information
+- Identified the attachment filename
+
+### Packet 270 IMF Screenshot
+
+![Packet 270 IMF Analysis](images/imf-analysis.png)
+
+---
+
+## 5. Attachment Identification
+
+Using IMF analysis, the attachment filename was successfully identified from the SMTP email contents.
+
+This demonstrates how email metadata and attachments can be extracted directly from PCAP traffic during network forensic investigations.
+
+---
+
+# Findings
+
+| Investigation Area | Result |
+|---|---|
+| SMTP traffic identified | Yes |
+| Blocked email detected | Yes |
+| Spamhaus filtering observed | Yes |
+| SMTP rejection analyzed | Yes |
+| IMF analysis performed | Yes |
+| Attachment filename identified | Yes |
+
+---
+
+# Conclusion
+
+The investigation successfully identified and analyzed suspicious SMTP traffic within the PCAP file.
+
+Key outcomes included:
+- Identifying blocked SMTP communications
+- Investigating Spamhaus rejection responses
+- Performing IMF analysis on email packets
+- Extracting attachment information from SMTP traffic
+
+This exercise demonstrates practical SOC investigation workflows involving email security and packet analysis.
+
+---
+
+# Skills Demonstrated
+
+- PCAP analysis
+- SMTP traffic investigation
+- Wireshark filtering
+- SMTP response code analysis
+- IMF analysis
+- Email forensic investigation
+- Spam filtering analysis
+- Attachment identification
+- Network traffic analysis
+- SOC investigation workflow
+
+---
+
+# Tools Used
+
+- Wireshark
+- PCAP files
+- SMTP protocol analysis
+- IMF protocol analysis
+
+---
+
+# Example Wireshark Filters Used
+
+## SMTP Response Codes
+
+```plaintext
+smtp.response.code
+```
+
+## SMTP 220 Responses
+
+```plaintext
+smtp.response.code == 220
+```
+
+## IMF Analysis
+
+```plaintext
+imf
+```
+
+---
+
+# MITRE ATT&CK Mapping
+
+| Technique | Description |
+|---|---|
+| T1566 | Phishing |
+| T1040 | Network Sniffing |
+| T1071.003 | Application Layer Protocol: Mail Protocols |
+
+---
+
+# Lessons Learned
+
+- SMTP response codes provide valuable investigation context
+- Spamhaus responses help identify suspicious domains and senders
+- IMF analysis enables detailed inspection of email contents
+- PCAP analysis can reveal hidden email attachments and metadata
+- Wireshark is highly effective for email traffic investigations
+
+---
+
+# Disclaimer
+
+This project was completed in a controlled lab/simulation environment for cybersecurity training and educational purposes only.
