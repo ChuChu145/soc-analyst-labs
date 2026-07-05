@@ -44,7 +44,7 @@ Additional filtering was performed to narrow results to specific SMTP response c
 
 ### SMTP Response Code Screenshot
 
-![SMTP Response Code Filter](../images/wireshack.png)
+![SMTP Response Code Filter](../images/Architecture.png)
 
 ---
 
