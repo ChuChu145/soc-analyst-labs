@@ -37,9 +37,16 @@ The goal of these case studies is to simulate real-world SOC analyst workflows b
 
 ## 📁 Case Studies Included
 
-* [ Malicious URL Connection Attempt (Blocked)](./malicious-url-blocked.md)
+* [PCAP Analysis](./PCAP-Analysis.md)
 
 * [Phishing Email Investigation](./Phishing-Email-Investigation.md)
+
+* [Phishing Infrastructure Investigation](./Phishing-Infrastructure-Investigation.md)
+
+* [Malicious URL Connection Attempt (Blocked)](./malicious-url-blocked.md)
+
+
+
 
 ---
 
